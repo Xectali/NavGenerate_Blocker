@@ -1,0 +1,19 @@
+"Games"
+{
+	"csgo"
+	{
+		"Signatures"
+		{
+			"CNavMesh::BeginGeneration"		// #STR: "nav_generate"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x51\x8B\x0D\x2A\x2A\x2A\x2A\x56\x8B\x35\x2A\x2A\x2A\x2A\x6A\x00"
+			}
+			"CNavMesh::Load"				// #STR: "Error reading sub-version number.\n"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x83\xE4\xF8\x81\xEC\x74\x01\x00\x00\x53\x56\x8B\x35\x2A\x2A\x2A\x2A"
+			}
+		}
+	}
+}
